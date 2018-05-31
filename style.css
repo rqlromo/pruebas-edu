@@ -1,0 +1,57 @@
+/* body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+} */
+
+html, body {
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.item {
+  height: 100px;
+  flex-shrink: 2;
+  flex-basis: 60px;
+  flex-grow: 2;
+  /* width: 50px; */
+  /* position: relative; */
+}
+
+.item1 {
+  background-color: blue;
+  /* position: relative; */
+}
+
+.item2 {
+  background-color: yellow;
+  flex-grow: 4;
+  flex-shrink: 4;
+  /* position: relative; */
+  /* left: 50%;
+  top: 50%;
+  transform: translateY(50%);
+  transform: translateX(-50%); */
+
+}
+
+.item3 {
+  background-color: pink;
+  /* position: relative; */
+}
+
+/* .container {
+  position: relative;
+  background-color: aquamarine;
+  height: 500px;
+  width: 500px;
+} */
